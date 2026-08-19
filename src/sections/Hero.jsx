@@ -73,32 +73,32 @@ const Hero = () => {
                     </span>
                 </div>
 
-                <div className="mt-14 flex justify-center gap-6">
-                    <button
-                      onClick={() =>
-                       document.getElementById("projects")?.scrollIntoView({
-                       behavior: "smooth",
-                      })
-                     }
-                     className="bg-indigo-500 hover:bg-indigo-600 hover:scale-105 transition-all duration-300 px-8 py-3 rounded-xl font-medium shadow-lg shadow-indigo-500/30"
-                     >
-                     View Projects
-                   </button>
+               <div className="mt-14 flex justify-center gap-6">
+  <button
+    onClick={() =>
+      document.getElementById("projects")?.scrollIntoView({
+        behavior: "smooth",
+      })
+    }
+    className="bg-indigo-500 hover:bg-indigo-600 hover:scale-105 transition-all duration-300 px-8 py-3 rounded-xl font-medium shadow-lg shadow-indigo-500/30"
+  >
+    View Projects
+  </button>
 
-                    <button
-                       onClick={() =>
-                         document.getElementById("contact")?.scrollIntoView({
-                        behavior: "smooth",
-                       })
-                      }
-                      className="border border-gray-600 hover:border-indigo-400 hover:scale-105 transition-all duration-300 px-8 py-3 rounded-xl font-medium"
-                    >
-                     Contact Me
-                    </button>
-
-            </motion.div>
-        </section>
-    )
+  <button
+    onClick={() =>
+      document.getElementById("contact")?.scrollIntoView({
+        behavior: "smooth",
+      })
+    }
+    className="border border-gray-600 hover:border-indigo-400 hover:scale-105 transition-all duration-300 px-8 py-3 rounded-xl font-medium"
+  >
+    Contact Me
+  </button>
+</div>
+</motion.div>
+</section>
+)
 }
 
 export default Hero
