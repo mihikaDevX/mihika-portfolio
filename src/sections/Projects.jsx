@@ -19,6 +19,26 @@ const projects = [
         github: "https://github.com/mihikaDevX/GestureSnake",
         live: "#"
     },
+        {
+        title: "HeatShieldAI",
+        tagline: "AI-Powered Urban Heat Risk Assessment Prototype",
+        image: heatShieldImage,
+        description:
+               "An urban heat risk assessment prototype that analyzes environmental data and visualizes heat-risk patterns to support data-driven urban planning and climate resilience.",
+        architecture: [
+          "Python",
+          "Pandas",
+          "Matplotlib",
+          "Folium",
+          "Data Analysis",
+          "AI"
+        ],
+            impact:
+              "Provides data-driven insights into urban heat risk and supports climate-resilient planning through AI-assisted analysis and visualization.",
+          github: "https://github.com/mihikaDevX/HeatShieldAI",
+          live: "#"
+       },
+    
     {
         title: "Medicine Identification & Expiry Tracking System",
         tagline: "Browser-Based QR Pharmaceutical Intelligence Prototype",
@@ -55,22 +75,6 @@ const projects = [
         github: "https://github.com/mihikaDevX/devops-ci-cd-static-site",
         live: "https://mihikadevx.github.io/devops-ci-cd-static-site/"
     },
-    {
-      title: "HeatShieldAI",
-      description:
-        "An urban heat risk assessment prototype that analyzes environmental data and visualizes heat-risk patterns to support data-driven urban planning and climate resilience.",
-      image: heatShieldImage,
-      tags: [
-      "Python",
-      "Pandas",
-      "Matplotlib",
-      "Folium",
-      "Data Analysis",
-      "AI"      
-      ],
-    github: "https://github.com/mihikaDevX/HeatShieldAI",
-    live: "#",
-  },
 ]
 
 export default function Projects() {
