@@ -86,15 +86,15 @@ const Hero = () => {
                    </button>
 
                     <button
-  onClick={() =>
-    document.getElementById("contact")?.scrollIntoView({
-      behavior: "smooth",
-    })
-  }
-  className="border border-gray-600 hover:border-indigo-400 hover:scale-105 transition-all duration-300 px-8 py-3 rounded-xl font-medium"
->
-  Contact Me
-</button>
+                       onClick={() =>
+                         document.getElementById("contact")?.scrollIntoView({
+                        behavior: "smooth",
+                       })
+                      }
+                      className="border border-gray-600 hover:border-indigo-400 hover:scale-105 transition-all duration-300 px-8 py-3 rounded-xl font-medium"
+                    >
+                     Contact Me
+                    </button>
 
             </motion.div>
         </section>
