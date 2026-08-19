@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion"
+import profileImage from "../assets/profile.jpeg"
 
 const About = () => {
     return (
@@ -55,10 +56,11 @@ const About = () => {
                                 </div>
 
                                 <img
-                                    src="src/assets/profile.jpeg"
-                                    alt="Mihika Bhosale"
-                                    className="w-full h-full object-cover"
-                                />
+                                  src={profileImage}
+                                  alt="Mihika Bhosale"
+                                  className="w-full h-full object-cover"
+                                 />
+                                
 
                                 {/* Bottom Gradient */}
                                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
