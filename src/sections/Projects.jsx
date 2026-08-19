@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 
 import snakeImage from "../assets/snake.webp"
+import heatShieldImage from "../assets/heatshield.png";
 import medicineImage from "../assets/medicine.jpg"
 import finscoreImage from "../assets/finscore.png"
 import devopsImage from "../assets/devops.png"
@@ -15,7 +16,7 @@ const projects = [
         architecture: ["Python", "OpenCV", "MediaPipe", "Real-Time Frame Processing"],
         impact:
             "Demonstrates applied AI integration, real-time processing logic, and performance-aware system design.",
-        github: "#",
+        github: "https://github.com/mihikaDevX/GestureSnake",
         live: "#"
     },
     {
@@ -39,7 +40,7 @@ const projects = [
         architecture: ["React", "Node.js", "PostgreSQL", "REST APIs"],
         impact:
             "Transforms structured financial data into actionable analytics dashboards.",
-        github: "#",
+        github: "https://bprajnasai.github.io/Finscoretech/",
         live: "#"
     },
     {
@@ -51,9 +52,25 @@ const projects = [
         architecture: ["GitHub Actions", "Docker", "AWS", "Linux"],
         impact:
             "Improves deployment reliability and reduces manual configuration errors.",
-        github: "#",
-        live: "#"
-    }
+        github: "https://github.com/mihikaDevX/devops-ci-cd-static-site",
+        live: "https://mihikadevx.github.io/devops-ci-cd-static-site/"
+    },
+    {
+      title: "HeatShieldAI",
+      description:
+        "An urban heat risk assessment prototype that analyzes environmental data and visualizes heat-risk patterns to support data-driven urban planning and climate resilience.",
+      image: heatShieldImage,
+      tags: [
+      "Python",
+      "Pandas",
+      "Matplotlib",
+      "Folium",
+      "Data Analysis",
+      "AI"      
+      ],
+    github: "https://github.com/mihikaDevX/HeatShieldAI",
+    live: "#",
+  },
 ]
 
 export default function Projects() {
