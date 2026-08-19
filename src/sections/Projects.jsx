@@ -33,7 +33,7 @@ const projects = [
     {
         title: "FinScoreTech",
         tagline: "Modular Financial Score Analytics Platform",
-        image: "src/assets/finscore.png",
+        image: finscoreImage,
         description:
             "A financial score tracking platform built with modular backend APIs and relational database modeling.",
         architecture: ["React", "Node.js", "PostgreSQL", "REST APIs"],
@@ -82,6 +82,7 @@ export default function Projects() {
 
     return (
         <section
+            id="projects"
             ref={containerRef}
             className="relative bg-slate-950"
             style={{ height: `${projects.length * 100}vh` }}
