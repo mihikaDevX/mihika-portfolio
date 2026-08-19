@@ -27,7 +27,10 @@ export default function Contact() {
     }
 
     return (
-        <section className="relative h-screen flex items-center justify-center bg-[#050810] px-6 overflow-hidden">
+        <section
+          id="contact"
+          className="relative h-screen flex items-center justify-center bg-[#050810] px-6 overflow-hidden"
+        >
 
             {/* Background Glow */}
             <div className="absolute w-[700px] h-[700px] bg-indigo-600/10 blur-[140px] rounded-full animate-glow" />
