@@ -1,10 +1,15 @@
 import { useEffect, useRef, useState } from "react"
 
+import snakeImage from "../assets/snake.webp"
+import medicineImage from "../assets/medicine.jpg"
+import finscoreImage from "../assets/finscore.png"
+import devopsImage from "../assets/devops.png"
+
 const projects = [
     {
         title: "GestureSnake",
         tagline: "Real-Time Computer Vision Controlled Interactive System",
-        image: "src/assets/snake.webp",
+        image: snakeImage,
         description:
             "A gesture-controlled gaming system powered by computer vision. Implements real-time hand tracking and motion detection for interactive control.",
         architecture: ["Python", "OpenCV", "MediaPipe", "Real-Time Frame Processing"],
@@ -16,7 +21,7 @@ const projects = [
     {
         title: "Medicine Identification & Expiry Tracking System",
         tagline: "Browser-Based QR Pharmaceutical Intelligence Prototype",
-        image: "src/assets/medicine.jpg",
+        image: medicineImage,
         description:
             "A camera-integrated QR scanning system that retrieves structured medicine data from a pre-stored database and evaluates expiry timelines in real time.",
         architecture: ["React", "Node.js", "QR Camera Integration", "Structured DB Schema"],
@@ -40,7 +45,7 @@ const projects = [
     {
         title: "DevOps CI/CD Static Website",
         tagline: "Automated Deployment Infrastructure Pipeline",
-        image: "src/assets/devops.png",
+        image: devopsImage,
         description:
             "A fully automated CI/CD workflow that builds, tests, and deploys a static site using containerized environments.",
         architecture: ["GitHub Actions", "Docker", "AWS", "Linux"],
