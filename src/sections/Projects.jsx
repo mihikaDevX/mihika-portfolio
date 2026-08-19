@@ -173,7 +173,7 @@ export default function Projects() {
                                             Architecture
                                         </h3>
                                         <div className="flex flex-wrap gap-3">
-                                            {project.architecture.map((tech, i) => (
+                                            {(project.architecture ?? []).map((tech, i) => (
                                                 <span
                                                     key={i}
                                                     className="text-xs border border-gray-700 px-3 py-1 rounded-full text-gray-400"
